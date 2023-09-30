@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Lugrasimo&family=Recursive&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lugrasimo", cursive;
+}
+#container {
+  min-height: 100vh;
+}
+#header {
+  width: 100%;
+  max-height: 100px;
+  background-color: #57aed1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  margin-bottom: 30px;
+}
+.imageHeader {
+  height: 150px;
+  width: auto;
+  padding-top: 4px;
+}
+.itemGroupHeader {
+  display: flex;
+  gap: 15px;
+  padding-right: 20px;
+}
+.itemsHeader {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  transition: 0.8ms;
+}
+.itemsHeader:hover {
+  border-bottom: 2px solid #3333ff;
+}
+#mainContent {
+  max-width: 1324px;
+  margin: 0 auto;
+}
+#flex {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+.mainImages {
+  width: 684px;
+  height: 488px;
+}
+#about {
+  margin: 20px 0px 25px 0px;
+  color: #57aed1;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.paragraph {
+  font-family: "Recursive", sans-serif;
+  text-align: justify;
+  color: #333333;
+}
+.imageStreaming {
+  height: 60px;
+  width: 120px;
+  background-color: #57aed1;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+#flexSecond {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  gap: 30px;
+}
+#contact {
+  color: #57aed1;
+  text-transform: uppercase;
+}
+#contactContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.headerMain {
+  color: #57aed1;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.formItems {
+  padding: 10px 0px 10px 10px;
+  color: #333333;
+  resize: none;
+}
+#button {
+  padding: 10px;
+  text-transform: uppercase;
+  background-color: #57aed1;
+  color: #ffffff;
+}
+.anchor {
+  text-decoration: none;
+  padding: 3px;
+}
+.socialImage {
+  width: 50px;
+  height: 50px;
+}
+#footer {
+  display: flex;
+  flex-basis: 100%;
+  height: 50px;
+  background-color: #57aed1;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 30px;
+}
